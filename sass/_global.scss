@@ -1,0 +1,43 @@
+body.griffin-brothers {
+  background-color: white;
+
+  .layout-container {
+    max-width: 100%;
+  }
+
+  .region-content {
+    min-height: 400px;
+    @include large {
+      min-height: 600px;
+    }
+  }
+}
+
+.griffin-brothers {
+  .block .content,
+  .node__content  {
+    margin-top: 0;
+  }
+
+  iframe {
+    width: 400px;
+    max-width: 100%;
+
+    @include medium {
+      width: 700px;
+    }
+
+    @include large {
+      width: 100%;
+    }
+  }
+
+  img {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.griffin-brothers .layout-builder-block {
+  padding: 0;
+}

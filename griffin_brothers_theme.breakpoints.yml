@@ -1,0 +1,17 @@
+
+# Breakpoints - change based on site need
+griffin_brothers_theme.xsmall:
+  label: Extra Small
+  mediaQuery: 'all and (min-width: 20em)'
+griffin_brothers_theme.small:
+  label: Small
+  mediaQuery: 'all and (min-width: 30em)'
+griffin_brothers_theme.medium:
+  label: Medium
+  mediaQuery: 'all and (min-width: 48em)'
+griffin_brothers_theme.large:
+  label: Large
+  mediaQuery: 'all and (min-width: 64em)'
+griffin_brothers_theme.xlarge:
+  label: Extra large
+  mediaQuery: 'all and (min-width: 80em)'

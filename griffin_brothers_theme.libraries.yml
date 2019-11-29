@@ -1,0 +1,13 @@
+global-styling:
+  version: 1.x
+  css:
+    theme:
+      css/griffin_brothers.css: {}
+  js:
+    js/griffin_brothers.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal.ajax
+    - core/drupal
+    - core/drupalSettings
+    - core/jquery.once
