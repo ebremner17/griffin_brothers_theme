@@ -6,7 +6,8 @@ core: 8.x
 
 libraries:
   - core/normalize
-  - griffin_brothers_theme/global-styling
+  - 'griffin_brothers_theme/global-stylings'
+  - 'griffin_brothers_theme/global-scripts'
 
 regions:
   header: Header

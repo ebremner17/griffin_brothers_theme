@@ -31,7 +31,7 @@ function styles() {
       outputStyle: 'collapsed'
     }))
     .pipe(minifyCSS())
-    .pipe(plugins.concat('rwd.css'))
+    .pipe(plugins.concat('griffin_brothers.css'))
     .pipe(gulp.dest(config.css))
     .pipe(plugins.size({title:'css'}));
 }
