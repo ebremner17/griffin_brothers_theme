@@ -1,0 +1,12 @@
+<?php
+
+/**
+ * Implements hook_page_attachments().
+ */
+function griffin_brothers_theme_page_attachments(array &$page) {
+  $is_admin = \Drupal::service('router.admin_context')->isAdminRoute();
+  if ($is_admin) {
+    $page['#attached']['library'][] = 'griffin_brothers_theme/gb_admin';
+    return;
+  }
+}
