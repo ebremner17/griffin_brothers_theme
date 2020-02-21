@@ -15,7 +15,7 @@ var config = {
 
 // Transpile, concatenate and minify scripts
 function scripts() {
-  return gulp.src(config.jsSrc)
+  return gulp.src(config.jsSrc, {allowEmpty: true})
     .pipe(plugins.jshint())
     .pipe(plugins.jshint.reporter('jshint-stylish'))
     .pipe(plugins.uglify())

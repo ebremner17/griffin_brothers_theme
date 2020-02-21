@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "devDependencies": {
+    "breakpoint-sass": "2.7.1",
     "glob": "^7.1.6",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
