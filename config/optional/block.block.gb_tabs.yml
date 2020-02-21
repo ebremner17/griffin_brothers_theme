@@ -1,0 +1,20 @@
+uuid: f1ad1f15-8db3-489a-b32c-adc4750c93db
+langcode: en
+status: true
+dependencies:
+  theme:
+    - griffin_brothers_theme
+id: gb_tabs
+theme: griffin_brothers_theme
+region: content
+weight: -1
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }
