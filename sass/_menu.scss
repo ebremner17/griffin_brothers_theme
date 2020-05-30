@@ -1,0 +1,20 @@
+@media (min-width: 992px) {
+  body:not(.we-mega-menu-backend) nav[data-style="Red"] {
+    background: none;
+  }
+
+  .block-we-megamenu {
+    width: 100%;
+
+    .content {
+      max-width: 63rem;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    .we-mega-menu-li {
+      margin-right: 1rem;
+    }
+  }
+}
+
