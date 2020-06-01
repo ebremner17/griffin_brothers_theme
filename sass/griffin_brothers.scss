@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 @import "node_modules/breakpoint-sass/stylesheets/breakpoint";
+@import "background";
 @import "breakpoints";
 @import "global";
 @import "copy-text";
@@ -7,3 +8,4 @@
 @import "spotify";
 @import "menu";
 @import "contact_form";
+@import "images";

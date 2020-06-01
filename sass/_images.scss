@@ -1,0 +1,24 @@
+.media--type-gb-mt-image {
+  position: relative;
+
+  img {
+    width: 100%;
+  }
+}
+
+.field--name-field-media-image {
+  width: 100%;
+}
+
+.field--name-field-gb-image-caption {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  position: absolute;
+  bottom: 0;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}

@@ -1,0 +1,23 @@
+body.griffin-brothers {
+  background: url('../images/griffin_brothers_small.jpg') repeat-y;
+  background-size: 100%;
+  min-height: 500px;
+
+  @media screen and (min-width: 48em) {
+    background: url('../images/griffin_brothers_medium.jpg') no-repeat;
+    background-size: 100%;
+    min-height: 750px;
+  }
+
+  @media screen and (min-width: 64em) {
+    background: url('../images/griffin_brothers_large.jpg') no-repeat;
+    background-size: 100%;
+    min-height: 1000x;
+  }
+
+  @media screen and (min-width: 80em) {
+    background: url('../images/griffin_brothers_xlarge.jpg') no-repeat;
+    background-size: 100%;
+    min-height: 1500px;
+  }
+}
